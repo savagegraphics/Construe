@@ -10,7 +10,7 @@ type Props = {}
 
 const page = (props: Props) => {
   return (
-    <div>
+    <div className='overflow-hidden'>
     <Hero/>
     <CTAskeleton/>
     <Features/>
