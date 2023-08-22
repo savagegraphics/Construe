@@ -20,7 +20,8 @@ const Hero = (props: Props) => {
           <button type="button" className="flex items-start px-8 py-3 bg-gray-100 text-gray-800 rounded-lg">Caret</button>
         </div>
         <div className='relative xl:col-span-3'>
-  <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=692&q=80" alt="" className="object-cover w-[737px] h-[549px] rounded-md " />
+  <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=692&q=80" 
+  alt="" className="object-cover lg:w-[737px] lg:h-[549px] sm:w-[537px] sm:h-[449px] rounded-md " />
 
   {/* Hide the second image on md and small screens */}
   <img
