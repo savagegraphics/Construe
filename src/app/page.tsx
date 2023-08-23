@@ -2,9 +2,9 @@ import React from 'react'
 import 'tailwindcss/tailwind.css';
 import Hero from './components/Hero';
 import Features from './components/Features';
-import Feature from './components/Feature';
 import Footer from './components/Footer';
 import CTAskeleton from './components/CTAskeleton';
+import Fixture from './components/Fixture';
 
 type Props = {}
 
@@ -14,7 +14,7 @@ const page = (props: Props) => {
     <Hero/>
     <CTAskeleton/>
     <Features/>
-    <Feature/>
+    <Fixture/>
     <Footer/>
     </div>
   )
