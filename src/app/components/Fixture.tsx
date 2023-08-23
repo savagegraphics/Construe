@@ -35,7 +35,7 @@ const Fixture = (props: Props) => {
 		<div className="lg:w-1/2 xl:w-3/5 right-0">
 			<div className="flex items-center justify-center">
 				<img  src="https://lirp.cdn-website.com/802007e2/dms3rep/multi/opt/pexels-photo-2816323-0a2f4a0c-130239be-1920w.jpeg"  alt="" 
-                className="shadow-lg dark:bg-gray-500 h-[691px] w-[673px] sm:h-[421px]" />
+                className="shadow-lg lg:h-[691px] lg:w-[673px]" />
 			</div>
 		</div>
 	</div>

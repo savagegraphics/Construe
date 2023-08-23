@@ -125,7 +125,7 @@ const Footer = (props: Props) => {
                       className="flex-grow w-full h-12 px-4 mb-3 transition text-lg font-medium tracking-tight duration-200 bg-white border border-[#FF7D05] rounded shadow-sm appearance-none md:mr-2 md:mb-0 placeholder-orange"
                     />
                     
-                      <button   type="submit" className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide px-8 py-3 font-semibold rounded bg-[#FF7D05] text-gray-100">
+                      <button   type="submit" className="inline-flex items-center justify-center h-12 tracking-wide px-8 py-3 font-semibold rounded bg-[#FF7D05] text-gray-100">
                       Subscribe
                     </button>
                   </form>

@@ -12,11 +12,10 @@ const Hero = (props: Props) => {
     <Navbar/>
 	<div className="container grid gap-6 mx-auto text-center lg:my-8 lg:grid-cols-2 xl:grid-cols-5">
 		<div className="w-full px-6 py-16 rounded-md sm:px-12 md:px-16 xl:col-span-2">
-			<h1 className="flex items-start lg:text-5xl text-2xl lg:font-[24px] sm:font-[16px]">We Build Very</h1>
-            <h1 className="flex items-start lg:text-5xl text-2xl lg:font-[24px] sm:font-[16px]">Modern and</h1>
-        	<h1 className="flex items-start whitespace-nowrap lg:text-5xl text-2xl lg:font-[24px] sm:font-[16px]">Stylish Buildings.</h1>
-		    <p className="flex items-start pt-8 font-medium">Modular and versatile. Fugit vero facilis dolor sit</p>
-            <p className="flex items-start pb-8 font-medium">neque cupiditate minus esse accusamus.</p>
+			<h1 className="flex items-start lg:text-4xl text-2xl whitespace-nowrap lg:font-[24px] sm:font-[16px]">We Build Very Modern and</h1>
+      <h1 className="flex items-start lg:text-4xl text-2xl whitespace-nowrap lg:font-[24px] sm:font-[16px]"> Stylish Buildings.</h1>
+        	<h1 className="flex items-start whitespace-nowrap lg:text-5xl text-2xl lg:font-[24px] sm:font-[16px]"></h1>
+		    <p className="flex items-start pt-8 font-medium mb-4 text-left">The exact image of your dream building would be brought to life, even before you know it. </p>
           <button type="button" className="flex items-start px-8 py-3 bg-gray-100 text-gray-800 rounded-lg">Caret</button>
         </div>
         <div className='relative xl:col-span-3 sm:m-8 sm:mr-20'>
